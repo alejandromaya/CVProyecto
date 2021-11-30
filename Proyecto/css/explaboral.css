@@ -1,0 +1,93 @@
+.ExpLaboral {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+
+.Administrador_Contable {
+    width: 450px;
+    height: 250px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    float: left;
+    background-image: url('/Proyecto/img/fourth-white-icon.png');
+    background-repeat: no-repeat;
+    background-position-x: 35px;
+    background-position-y: 35px;
+    margin-left: 90px;
+}
+.Administrador_Contable h4{
+    text-align: left;
+    justify-content: left;
+    margin-top: 120px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.Administrador_Contable p{
+    text-align: justify;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Administrador_Contable:hover, .Administrador_Contable p:hover, .Administrador_Contable h4:hover{
+    background-color: rgb(168, 167, 167);
+    transition: opacity 1.5s ;
+    opacity: .9;
+    color:black;
+    transition: .5s; 
+}
+.Administrador_Contable:hover{
+    background-image: url('/Proyecto/img/fourth-main-icon.png');
+}
+
+.Mécanico {
+    width: 450px;
+    height: 250px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    float: left;
+    background-image: url('/Proyecto/img/third-white-icon.png');
+    background-repeat: no-repeat;
+    background-position-x: 35px;
+    background-position-y: 35px;
+    margin-left: 15px;
+}
+.Mécanico h4{
+    text-align: left;
+    justify-content: left;
+    margin-top: 120px;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.Mécanico p{
+    text-align: justify;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.Mécanico:hover, .Mécanico p:hover, .Administrador_Contable h4:hover{
+    background-color: rgb(168, 167, 167);
+    transition: opacity 1.5s ;
+    opacity: .9;
+    color:black;
+    transition: .5s; 
+}
+.Mécanico:hover{
+    background-image: url('/Proyecto/img/third-main-icon.png');
+}

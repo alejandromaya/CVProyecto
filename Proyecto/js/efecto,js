@@ -12,28 +12,4 @@
                          index = 0; // Solo hay cuatro imágenes, restablezca a 0 cuando sea 3
         }
     }
-  setInterval("qiehuan()", 1500); // vuelva a ejecutar la función cada 3 segundos qiehuan ()
-
-
- // Haga clic en la imagen para cambiar de parte:
-        window.onload = function () {
-                 // Obtener la identificación de cuatro imágenes
-        var c1 = document.getElementById("clk1");
-        var c2 = document.getElementById("clk2");
-        var c3 = document.getElementById("clk3");
-        var c4 = document.getElementById("clk4");
-
-                 // Haga clic en el botón correspondiente para mostrar la imagen correspondiente
-        c1.οnclick=function() {
-            document.getElementById("img").src=imgs[0];
-        }
-        c2.οnclick=function() {
-            document.getElementById("img").src=imgs[1];
-        }
-        c3.οnclick=function() {
-            document.getElementById("img").src=imgs[2];
-        }
-        c4.οnclick=function() {
-            document.getElementById("img").src=imgs[3];
-        }
-    }
+  setInterval("qiehuan()", 1800); // vuelva a ejecutar la función cada 3 segundos qiehuan ()

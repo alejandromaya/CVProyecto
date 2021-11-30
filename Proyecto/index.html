@@ -9,6 +9,7 @@
         <link rel = "stylesheet" href = "css/hrstyle.css">
         <link rel = "stylesheet" href = "css/edutation.css">
         <link rel = "stylesheet" href = "css/hobies.css">
+        <link rel = "stylesheet" href = "css/explaboral.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Examen</title>
     </head>
@@ -22,22 +23,22 @@
             </div>
             <button class="bottomenu"><a href= "#Educación">Educación</a></button>
             <button class="bottomenu"><a href= "#Hobbies">Hobies</a></button>
-            <button class="bottomenu"><a href= "#">Experiencia laboral</a></button>
-            <button class="bottomenu"><a href= "#">Tiempo libre</a></button>
-            <button class="bottomenu"><a href= "#">Trabajos</a></button>
+            <button class="bottomenu"><a href= "#ExpLaboral">Experiencia laboral</a></button>
+            <button class="bottomenu"><a href= "#Hobbies">Tiempo libre</a></button>
+            <button class="bottomenu"><a href= "#Myjobs">Trabajos</a></button>
 
             <div class="box">
                 <div class= "redes-sociales">
                     <button class="fa fa-facebook"></a>
                     <button class="fa fa-twitter"></a>
                     <button class="fa fa-linkedin"></a>
-                    <button class="fa fa-dribbble"></a>
+                    <button class="fa fa-instagram"></a>
                     <button class="fa fa-rss"></a>
                 </div>
             </div>
         </div>
             <div class="main">
-                <h1 class="tittle">Educación</h1>
+                <h1 class="tittle" id="Educación">Educación</h1>
                 <hr class= "lineatitulo">
                 <div class= "contain-tittle">
                     Estudió en la <b>Universidad Aútonoma de la Ciudad de México (UACM)</b>, estoy en el noveno semestre y estudio
@@ -45,16 +46,16 @@
                 </div>
                 <section id="Educación" class="education">
                     <img src= "data:image/png;base64,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">
-                    <p class="1">A lo largo de mis estudios estas son las materias que mas me han gustado:</p>
+                    <p class="1">A lo largo de mis estudios estas son las materias que más me han gustado:</p>
                     <ul>
                         <li type="list-style-type:disc;">Diseño de software</li>
                         <li type="list-style-type:disc;">Arquitectura de software</li>
-                        <li type="list-style-type:disc;">Analisis de requisitos</li>
+                        <li type="list-style-type:disc;">Análisis de requisitos</li>
                         <li type="list-style-type:disc;">Calculo Vectorial</li>
                         <li type="list-style-type:disc;">Electricidad y Magnetismo</li>
                         <li type="list-style-type:disc;">Teoria de la computación</li>
                     </ul>
-                    <p class="2">Estudié en una carrera tecnica semejante a lo que estudio, la cuál era informatica en el <b>Centro de Bachillerato Tecnologico No.2
+                    <p class="2">Estudié en una carrera técnica semejante a lo que estudio, la cuál era informatica en el <b>Centro de Bachillerato Tecnológico No.2
                         "Carlos Pichardo"</b>. A lo largo de mi aprendizaje e adquirido los siguientes rasgos:
                     </p>
                     <ul>
@@ -71,7 +72,7 @@
 
                 <hr class="linea">
 
-                    <h1 class="tittle">Hobies</h1>
+                    <h1 class="tittle" id="Hobbies">Hobies</h1>
                     <hr class= "lineatitulo">
                     <div class= "contain-tittle">
                         Estos son algunos de mis hobies mas representativos.
@@ -113,40 +114,65 @@
                             </table>
                         </div>
                         <dt>Redes sociales</dt>
-                        <dd>Las uso de vez en cuando, para compartir temas de interes de mi carrera para mis amigos, llamese: Cursos, Tecnologias, Investigaciones,
-                            Conflictos en la industria, Trabajo, etc.
+                        <dd>El uso de vez en cuando, para compartir temas de interés de mi carrera para mis amigos, llámese: Cursos, 
+                            Tecnologías, Investigaciones, Conflictos en la industria, Trabajo, etc.
                         </dd>
                         <div>
                             <div id="JB">
                                 <img src="https://img.unocero.com/2020/03/tendencias-redes-sociales-2020.jpg" id="img"> 
                             </div>
-                            <ul id="ol">
-                                <li style="display: inline-block;margin: 0 5px;"><img src="" id="clk1"></li>  
-                                <li style="display: inline-block;margin: 0 5px;"><img src="" id="clk2"></li>
-                                <li style="display: inline-block;margin: 0 5px;"><img src="" id="clk3"></li>
-                                <li style="display: inline-block;margin: 0 5px;"><img src="" id="clk4"></li>
-                            </ul>
                         <dt>Escritura</dt>
-                        <dd>Otra parte de mi tiempo la uso para tratar de transmitir un mensaje, que al final lo uso para hacer poesia con el fin de hacer sentir
-                            o generar una emoción.
+                        <dd>Otra parte de mi tiempo la uso para tratar de transmitir un mensaje, que al final lo uso para hacer poesía
+                             con el fin de hacer sentir o generar una emoción.
                         </dd>
                         <dt>Deportes y ejercicio</dt>
-                        <dd>La mayor parte de mi tiempo me didico a entrenar, me gusta sentirme bien conmigo mismo. Tambien me gusta ser participe del juego en conjunto
-                            cómo lo es el futbol. 
+                        <dd>La mayor parte de mi tiempo me dedico a entrenar, me gusta sentirme bien conmigo mismo. También me gusta 
+                            ser participe del juego en conjunto cómo lo es el futbol.
                         </dd>
                         <dt>Ajedrez</dt>
-                        <dd>Me gusta entender y analizar los posibles conflictos que me puedo presentar, puedo tomar riesgos que me ayuden a conseguir una victoria
-                            o bien, un derrota.   
+                        <dd>Me gusta entender y analizar los posibles conflictos que me puedo presentar, puedo tomar riesgos que me 
+                            ayuden a conseguir una victoria o bien, una derrota.  
                         </dd> 
                         <dt>Debatir</dt>
-                        <dd>Para generar autococimiento de lo nuevo que he aprendido o por si necesito una retroalimentacion a mi criterio u opinión. </dd> 
+                        <dd>Para generar auto cocimiento de lo nuevo que he aprendido o por si necesito una retroalimentación a mi criterio u opinión. </dd> 
                     </dl>
                 </section>
                 
             <hr class="linea">
 
+                    <h1 class="tittle" id="ExpLaboral">Experiencia Laboral</h1>
+                         <hr class= "lineatitulo">
+                    <div class= "contain-tittle">
+                        Mi experiencia laboral, solo consta de 2 trabajos:
+                    </div>
+                <section id="ExpLaboral" class ="ExpLaboral">
+                    <div class="Administrador_Contable">
+                        <h4>Administrador Contable</h4>
+                        <p>
+                            Aprendi a generar Nominas, Reposiciones de gastos, Declaración de impuestos y La de generar 
+                            DIOT a vace de Excel; Usando las Herramientas como son COMPAQi Nominas y COMPAQi Contabilidad. 
+                        </p>
+                    </div>
+                    <div class="Mécanico">
+                        <h4>Mécanico Automotriz</h4>
+                        <p>
+                            Solo fui ayudante por un tiempo donde me hacian limpiar los autos y revisar algunas cosas como el
+                            aceite, luces, cambiar llantas o quitar alguna pieza.
+                        </p>
+                    </div>
+                </section>
 
-            </div>  
+            <hr class="linea">
+
+            <h1 class="tittle" id="Myjobs">Mis Proyectos</h1>
+                         <hr class= "lineatitulo">
+                    <div class= "contain-tittle">
+                        He tenido bastente proyectos academicos cómo personales que considero estos los más importantes
+                        que me
+                    </div>
+            <section id="Myjobs" class="Myjobs">
+
+            </section> 
         <script src="js/efecto,js"></script>
     </body>
 </html>

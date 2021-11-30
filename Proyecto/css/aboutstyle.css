@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contain{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.tittle{
+    color: white;
+    font-size: 30px;
+    margin-left: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    position: relative;
+}
+.tittle h1{
+    margin: auto;
+    color: rgb(6, 7, 90);
+    margin-bottom: 20px;
+}
+.sidebar img{
+    text-align: center;
+    object-fit: cover;
+    height: 150px;
+    width: 180px;
+}
+.foto{
+    text-align: center;
+    object-position: center;
+    margin-bottom: 25px;
+    color: white;
+}
+.foto img{
+    border-radius: 120%;
+}
+
+.box {
+    border: 3px;
+    border-color: white;
+    object-position: center;
+    position: relative;
+}
+
+.redes-sociales{
+   display: flex;
+   object-position: center;
+   margin: auto;
+   margin-left: 40px;
+   margin-top: 20px;
+}
+
+.redes-sociales button{
+    background: rgb(21, 23, 90);
+    opacity: .7;
+    background-size: 200%;
+    width: 35px;
+    height: 35px;
+    font-size: 1ren;
+    padding: 1ren 1ren;
+    margin: .1px;
+    border: auto;
+    border-right: 2px;
+    border-left: 2px;
+    object-position: center;
+}
+.redes-sociales button{
+    cursor: pointer;
+    color:white;
+    transition: background-position 0.7s ease;
+    background: linear-gradient(to right,  rgb(99, 98, 98) 50%, white 50%);
+    background-size: 250%;
+}
+
+.redes-sociales button:hover{
+    background: white;
+    opacity: .8;
+    color: rgb(21, 23, 90);
+}
+
+
+.sidebar {
+    margin-left: 50px;
+    display: block;
+    height: 150%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(21, 23, 90);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; 
+    padding: 0px 150px;
+    color: white;
+    text-align: center;
+  }
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+.contain-tittle {
+    color: white;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+} 
+.bottomenu{
+    margin: 50px;
+    color:white;
+    border:none;
+    width: 100%;
+    height: 6%;
+    text-align: center;
+    object-position: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.bottomenu{
+    cursor: pointer;
+    font-size: 1ren;
+    padding: 1ren 3ren;
+    margin: auto;
+    transition: background-position 0.7s ease;
+    background: linear-gradient(to right,  rgb(21, 23, 90) 50%, white 50%);
+    background-size: 200%;
+}
+
+.bottomenu a:hover{
+    color: rgb(21, 23, 90);
+}
+
+.bottomenu:hover{
+    background: white;
+    color: rgb(21, 23, 90);
+}
+
+
+
+
+
+
+
+
+

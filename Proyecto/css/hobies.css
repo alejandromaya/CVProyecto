@@ -1,0 +1,77 @@
+.cont{
+    background: purple;
+    height: 150px;
+    width: 750px;
+    position: relative;
+    margin-left: 120px;
+    margin-bottom: 35px;
+}
+
+.hobies{
+    color: white;
+    margin-left: 60px;
+}
+/*LISTAS EFECTOS*/
+
+.hobies dt{
+    margin-left: 100px;
+    text-align: justify;
+}
+
+.hobies dd{
+    margin-left: 60px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+/*TABLAS EFECTOS*/
+.hobies tr{
+    height: auto;
+    width: auto;
+}
+
+.hobies th{
+    background: rgb(225, 100, 121);
+}
+
+.tr, td{
+    padding: auto;
+    height: auto;
+    text-align: center;
+}
+
+.hobies table{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    background: pink ;
+    color:black;
+}
+
+.hobies th{
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+.hobies tr:hover{
+    background: #57b5d1;
+    color:white;
+}
+
+#BJ {
+    text-align: center;     
+}
+#img {
+    margin-left: 60px;
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    float: right;
+}
+#ol{
+   position:  absolute; 
+   bottom:  85px; 
+   text-align:  center; 
+   right: 15px;
+}

@@ -1,0 +1,28 @@
+.education{
+    color: white;
+    margin-left: 60px;
+
+}
+
+.education p {
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 60px;
+    padding-top: 50px;
+}
+
+.education ul{
+    margin-top: 40px;
+    margin-left: 100px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.education img{
+    margin-left: 60px;
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    float: right;
+}
+

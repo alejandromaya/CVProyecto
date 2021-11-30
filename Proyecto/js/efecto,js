@@ -1,0 +1,39 @@
+// Imagen de la parte de conmutación automática:
+    var index=0;
+    var imgs=["https://img.unocero.com/2020/03/tendencias-redes-sociales-2020.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOVDgf4fXRjTT-Ev8MpcTRKVAggQC_Ove5-A&usqp=CAU2.jpg",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf7UL3Q7Og0tNEPFgIOrHFxVAA2ju_hRiR5Q&usqp=CAU",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0rRndQt2ITgXCb8lWLsifu_w889MiH4XbBg&usqp=CAU"];
+
+    function qiehuan(){
+        document.getElementById("img").src=imgs[index];
+        index++;
+        if(index > 3){
+                         index = 0; // Solo hay cuatro imágenes, restablezca a 0 cuando sea 3
+        }
+    }
+  setInterval("qiehuan()", 1500); // vuelva a ejecutar la función cada 3 segundos qiehuan ()
+
+
+ // Haga clic en la imagen para cambiar de parte:
+        window.onload = function () {
+                 // Obtener la identificación de cuatro imágenes
+        var c1 = document.getElementById("clk1");
+        var c2 = document.getElementById("clk2");
+        var c3 = document.getElementById("clk3");
+        var c4 = document.getElementById("clk4");
+
+                 // Haga clic en el botón correspondiente para mostrar la imagen correspondiente
+        c1.οnclick=function() {
+            document.getElementById("img").src=imgs[0];
+        }
+        c2.οnclick=function() {
+            document.getElementById("img").src=imgs[1];
+        }
+        c3.οnclick=function() {
+            document.getElementById("img").src=imgs[2];
+        }
+        c4.οnclick=function() {
+            document.getElementById("img").src=imgs[3];
+        }
+    }

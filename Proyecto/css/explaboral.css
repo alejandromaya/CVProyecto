@@ -15,7 +15,7 @@
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     float: left;
-    background-image: url('/Proyecto/img/fourth-white-icon.png');
+    background-image: url('Proyecto/img/fourth-white-icon.png');
     background-repeat: no-repeat;
     background-position-x: 35px;
     background-position-y: 35px;
@@ -46,7 +46,7 @@
     transition: .5s; 
 }
 .Administrador_Contable:hover{
-    background-image: url('/Proyecto/img/fourth-main-icon.png');
+    background-image: url('Proyecto/img/fourth-main-icon.png');
 }
 
 .Mécanico {
@@ -58,7 +58,7 @@
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     float: left;
-    background-image: url('/Proyecto/img/third-white-icon.png');
+    background-image: url('Proyecto/img/third-white-icon.png');
     background-repeat: no-repeat;
     background-position-x: 35px;
     background-position-y: 35px;
@@ -89,5 +89,5 @@
     transition: .5s; 
 }
 .Mécanico:hover{
-    background-image: url('/Proyecto/img/third-main-icon.png');
+    background-image: url('Proyecto/img/third-main-icon.png');
 }

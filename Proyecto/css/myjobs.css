@@ -1,0 +1,17 @@
+.Myjobs{
+    text-align: center;
+    margin-left: 40px;
+}
+
+.Myjobs h4{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.odd{
+    text-align: right;
+}
+
+.even{
+    text-align: left;
+}

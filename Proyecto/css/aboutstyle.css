@@ -44,56 +44,6 @@
     border-radius: 120%;
 }
 
-.box {
-    border: 3px;
-    border-color: white;
-    object-position: center;
-    position: relative;
-}
-
-.redes-sociales{
-   display: flex;
-   object-position: center;
-   margin: auto;
-   margin-left: 40px;
-   margin-top: 20px;
-}
-.redes-sociales a{
-   display: flex;
-   object-position: center;
-   margin: auto;
-   margin-bottom: none;
-}
-
-.redes-sociales button{
-    background: rgb(21, 23, 90);
-    opacity: .7;
-    background-size: 200%;
-    width: 35px;
-    height: 35px;
-    font-size: 1ren;
-    padding: 1ren 1ren;
-    margin: .1px;
-    border: auto;
-    border-right: 2px;
-    border-left: 2px;
-    text-align: center;
-}
-.redes-sociales button{
-    cursor: pointer;
-    color:white;
-    transition: background-position 0.7s ease;
-    background: linear-gradient(to right,  rgb(99, 98, 98) 50%, white 50%);
-    background-size: 250%;
-}
-
-.redes-sociales button:hover{
-    background: white;
-    opacity: .8;
-    color: rgb(21, 23, 90);
-}
-
-
 .sidebar {
     margin-left: 50px;
     display: block;
@@ -171,10 +121,48 @@
     color: rgb(21, 23, 90);
 }
 
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
 
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
 
+.icon-facebook{
+    background: #2E406E;
+}
 
+.icon-twitch{
+    background: #6441a5;
+}
 
+.icon-instagram{
+    background: #3f729b;
+}
+
+.icon-linkedin2{
+    background: #3F60A5;
+}
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
 
 
 
